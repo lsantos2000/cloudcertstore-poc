@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.dev.vars
+.DS_Store
+
+cloudflare-creds.txt
+
+push-to-github.ps1
+cloudflare-creds.example.txt

@@ -1,0 +1,10 @@
+{
+  "name": "cloudcertstore-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler@latest pages dev public",
+    "deploy": "npx wrangler@latest pages deploy public --project-name cloudcertstore-poc",
+    "check": "node --check public/app.js && node --check functions/api/resolve.js && node --check functions/api/health.js"
+  }
+}

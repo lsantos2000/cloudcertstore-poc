@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cloudcertstore-poc.pages.dev/sitemap.xml
